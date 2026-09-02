@@ -72,5 +72,4 @@ python eval.py --checkpoint checkpoints/hybridv5_demo.pt --batch-size 4
 ```
 ## License
 
-The content in this repo is licensed under a Creative Commons Attribution 4.0 International license.
-
+This repo is licensed under the Apache License, Version 2.0

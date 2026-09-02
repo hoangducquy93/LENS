@@ -2,9 +2,6 @@
 This is the official repository for "LENS: a mammography-specific hybrid CNN-Transformer with lesion-aware evidence modeling"
 
 ## Installation
-
-### Option 1: local editable install
-
 ```bash
 cd share/lens_hybridv5
 python -m venv .venv
@@ -14,14 +11,6 @@ source .venv/bin/activate
 # .\.venv\Scripts\Activate.ps1
 
 pip install -r requirements.txt
-pip install -e .
-```
-
-### Option 2: direct usage from source
-
-```bash
-cd share/lens_hybridv5
-python -m lens.example_usage
 ```
 
 ## Quick start

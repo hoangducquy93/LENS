@@ -46,8 +46,6 @@ cd share/lens
 python train.py --epochs 2 --batch-size 4 --learning-rate 1e-4 --save-path checkpoints/hybridv5_demo.pt
 ```
 
-This script creates a tiny synthetic dataset and runs a short training loop to verify the model builds and updates correctly.
-
 ## Evaluate a checkpoint
 
 ```bash
@@ -56,9 +54,23 @@ python eval.py --checkpoint checkpoints/hybridv5_demo.pt --batch-size 4
 ```
 
 ## Notes
-- For real mammography experiments, replace the synthetic dataset with your own dataset loader and labels.
-
+- If you found this code useful, please cite our paper:
+```
+@article{Hoang2026,
+  author = {Hoang, Duc Quy AND Cao, Van Kien AND Nguyen, Tan Nhu AND Nguyen, Ngoc Son},
+  title = {LENS: A mammography-specific hybrid CNN-Transformer with lesion-aware evidence modeling},
+  journal = {PLOS ONE},
+  year = {2026},
+  doi = {10.1371/journal.pone.0350720},
+  publisher = {Public Library of Science},
+  month = {09},
+  volume = {21},
+  url = {https://doi.org/10.1371/journal.pone.0350720},
+  pages = {1-23},
+  number = {9},
+}
+```
 ## License
 
-This package is intended for research and code-sharing purposes. Please check the original project license before redistribution.
+The content in this repo is licensed under a Creative Commons Attribution 4.0 International license.
 
